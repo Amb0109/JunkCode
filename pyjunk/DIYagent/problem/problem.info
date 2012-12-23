@@ -1,0 +1,26 @@
+<cid: cid = "15399" />
+<pid: pid = "1002" />
+<title: title = "Pixel density" />
+<timelimite: timelimite = "3000" javatimelimite = "6000" />
+<memorylimite: memorylimite = "32768" javamemorylimite = "65535" />
+<outputlimite: outputlimite = "5120" />
+<author: author = "Sunnypiggy from HDU" />
+<source: source = "" />
+<description>Pixels per inch (PPI) or pixel density is a measurement of the resolution of devices in various contexts; typically computer displays, image scanners, and digital camera image sensors. Note, the unit is not square inches. Good quality photographs usually require 300 pixels per inch when printed. When the PPI is more than 300(phone), we call it retina screen. Sunnypiggy like the retina screen very much.
+[center][img]http://farm8.static.flickr.com/7068/7087255213_2ace10a274_b.jpg[/img][/center]
+ But you know it is expensive for Sunnypiggy and Sunnypiggy¡¯s own smart phone isn¡¯t like that. I tell you how to calculate the PPI. First we must know how big the mobile phone¡¯s screen is. Then we get the resolution (Hp*Wp) about it. After that we calculate the diagonal resolution in pixels (Dp) and divided by diagonal size in inches. Now you get the answer.[center][img]http://farm8.static.flickr.com/7050/7087255585_40252cbabd_b.jpg[/img][/center] Maybe you knew it, but Sunnypiggy¡¯s math is very bad and he wants you to help him to calculate the pixel density of all the electronic products he dreamed. 
+[center][img]http://farm8.static.flickr.com/7069/6941186256_6ec92bcd53_b.jpg[/img][/center]
+</description>
+<input>First you will get an integer T which means the test number, and then Sunnypiggy will tell you the name and type of the electronic products. And you know, Sunnypiggy is a careless boy and some data aren¡¯t standard, just like 04.00 inches or 0800*0480.
+</input>
+<output>Output the answers to Sunnypiggy just like the sample output. Maybe it is not a phone. Sunnypiggy like such a form, although it seems no use. The result should be rounded to 2 decimal places. When it has no screen (0.0 inches) that we define the answer is 0.00(PPI).
+</output>
+<sampleinput>2
+iPhone 4S 3.5 inches 960*640 PHONE
+The new iPad 0009.7 inches 2048*1536 PAD
+</sampleinput>
+<sampleoutput>2
+iPhone 4S 3.5 inches 960*640 PHONE
+The new iPad 0009.7 inches 2048*1536 PAD
+[hint]Dp= sqrt(Wp*Wp+Hp*Hp ) Wp is width resolution in pixels, Hp is height resolution in pixels.
+[/hint]</sampleoutput>
