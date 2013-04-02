@@ -54,8 +54,7 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"Themr",
-		"MarkdownEditing"
+		"Themr"
 	],
 	"theme": "Soda Dark.sublime-theme",
 	"detect_slow_plugins": false
