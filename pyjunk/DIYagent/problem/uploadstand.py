@@ -5,8 +5,8 @@ import re
 cid = getVal("init.info", "diy", "cid")
 pid = getVal("init.info", "problem", "pid")
 
-username = 'amb'
-userpass = '1035920299bx'
+username = ''
+userpass = ''
 diypass = getVal("init.info", "diy", "pass")
 
 cookiejar = cookielib.CookieJar()
